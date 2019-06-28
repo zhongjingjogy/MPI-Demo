@@ -10,3 +10,6 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 add_subdirectory(./demo)
 add_subdirectory(./serialization)
 add_subdirectory(./random)
+add_subdirectory(./format)
+
+add_subdirectory(./3rd/fmt)
